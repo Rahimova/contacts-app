@@ -1,0 +1,30 @@
+{
+    "sqltools.connections": [
+        {
+            "askForPassword": true,
+            "database": "social",
+            "driver": "MySQL",
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "name": "mysql",
+            "port": 3306,
+            "previewLimit": 50,
+            "server": "localhost",
+            "username": "app"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "askForPassword": true,
+            "driver": "MySQL",
+            "name": "contacts-task",
+            "database": "contacts-task",
+            "username": "pass"
+        }
+    ]
+}
